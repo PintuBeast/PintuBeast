@@ -1,10 +1,24 @@
 import React from "react";
-import {View,Text} from "react-native";
-
+import {View,Text,Image} from "react-native";
+import Post from '../../components/Post';
+import styles from "./styles";
 const Home = () => {
     return (
         <View>
-            <Text> Home Screen</Text>
+            <Post/>
+
+            <View style={styles.homeIconContainerStyle}>
+
+
+<Text
+style={{fontSize:20,
+    color:'white',
+    marginBottom:100}}
+>
+     BottomTAB
+</Text>
+
+            </View>
             </View>
     );
 };

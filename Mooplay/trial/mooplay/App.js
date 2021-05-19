@@ -15,12 +15,12 @@ import {
 
 
 
-const App: () => Node = () => {
+const App: () => React$Node = () => {
   
   return (
-    <SafeAreaView >
+  //  <SafeAreaView >
     <Home/>
-    </SafeAreaView>
+  //  </SafeAreaView>
 
   );
 };
